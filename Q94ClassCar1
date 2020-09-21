@@ -1,0 +1,15 @@
+import java.util.Scanner;
+class Main{
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("day1 입력");
+		System.out.print("년:"); int y = sc.nextInt();
+		System.out.print("월:"); int m = sc.nextInt();
+		System.out.print("일:"); int d = sc.nextInt();
+		
+		Day day1=new Day(y,m,d);
+		
+		
+	}
+}
