@@ -1,0 +1,15 @@
+import java.util.Scanner;
+class Main {
+	  public static void main(String[] args) {
+	  Human gildong = new Human("길동",170,60);
+	  Human chulsu = new Human("철수",166,72);
+
+	  
+	  
+	  
+
+
+	  System.out.println("길동:"+gildong);
+	  System.out.println("철수:"+chulsu);
+	  }
+	}
